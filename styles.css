@@ -1,0 +1,22 @@
+
+
+body {
+    background-image: url("./img/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    margin: 0;
+    background-color: hsl(225, 100%, 94%);
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #fff;
+    width: 38%;
+    margin: 8rem auto;
+    display: flex;
+    border-radius: 1rem;
+}
+
+.images img{
+    border-radius: 1rem;
+    width: 100%;
+}
