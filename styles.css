@@ -8,15 +8,6 @@ body {
     box-sizing: border-box;
 }
 
-.container {
-    background-color: #fff;
-    width: 38%;
-    margin: 8rem auto;
-    display: flex;
-    border-radius: 1rem;
-}
-
-.images img{
-    border-radius: 1rem;
-    width: 100%;
+.container{
+    
 }
