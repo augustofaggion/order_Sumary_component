@@ -9,5 +9,71 @@ body {
 }
 
 .container{
-    
+    margin: 3rem auto;
+    background-color: #fff;
+    width: 37%;
+    border-radius: 1rem;
+    height: auto;
+}
+.img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img img{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.introduction{
+    text-align: center;
+}
+.box-plan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-start;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: hsl(225, 100%, 98%);
+    width: 90%;
+    border-radius: 1rem;
+}
+
+.box-img, .change{
+    flex-shrink: 0;
+}
+
+.box-img{
+    margin-right: 1rem;
+}
+
+.text-plan {
+    flex-grow: 1;
+    line-height: .3rem  ;
+}
+
+.change a{
+    margin-left: 5rem;
+}
+
+.btn-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-cancel{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border: 0;
+}
+
+.btn-cancel:hover{
+    background-color: hsl(225, 100%, 94%);
+    transition: ease-in-out .1s;
+    border-radius: 1rem;
+    font-size: 1rem;
 }
