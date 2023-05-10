@@ -8,12 +8,15 @@ body {
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,600&display=swap');
+
 .container{
     margin: 3rem auto;
     background-color: #fff;
     width: 37%;
     border-radius: 1rem;
     height: auto;
+    font-family: 'Red Hat Display', sans-serif;
 }
 .img-container{
     display: flex;
@@ -28,7 +31,18 @@ body {
 
 .introduction{
     text-align: center;
+    line-height: 1;
 }
+
+.introduction h1 {
+    font-size: 1.5rem;
+}
+
+.introduction p {
+    font-size: 1rem;
+}
+
+
 .box-plan{
     display: flex;
     flex-direction: row;
@@ -38,7 +52,7 @@ body {
     margin: 1rem auto;
     padding: 1rem;
     background-color: hsl(225, 100%, 98%);
-    width: 90%;
+    width: 70%;
     border-radius: 1rem;
 }
 
@@ -53,15 +67,33 @@ body {
 .text-plan {
     flex-grow: 1;
     line-height: .3rem  ;
+    font-size: .9rem;
+}
+
+.text-plan h2{
+    font-size: 1rem;
 }
 
 .change a{
     margin-left: 5rem;
+    font-size: .9rem;
 }
 
 .btn-box{
     display: flex;
     flex-direction: column;
+}
+
+.btn-pro {
+    background-color: #1E1FCD;
+    color: white;
+    font-weight: bold;
+    border-radius: .5rem;
+    padding: .5rem 3rem;
+}
+
+.btn-pro:hover{
+    background-color: hsl(224, 23%, 55%);
 }
 
 .btn-cancel{
@@ -72,8 +104,8 @@ body {
 }
 
 .btn-cancel:hover{
-    background-color: hsl(225, 100%, 94%);
     transition: ease-in-out .1s;
     border-radius: 1rem;
     font-size: 1rem;
 }
+
