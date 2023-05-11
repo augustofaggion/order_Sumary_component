@@ -109,3 +109,18 @@ body {
     font-size: 1rem;
 }
 
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+
+    .box-plan{
+        width: 90%;
+    }
+
+    .change a {
+        margin-left: 2rem;
+    }
+}
+
+
